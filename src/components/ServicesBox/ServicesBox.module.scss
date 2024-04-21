@@ -1,0 +1,34 @@
+.icon {
+    width: 70px;
+    height: 70px;
+    display: inline-block; // musi być inline block, ponieważ elementy blokowe zajmują cały szerokość elementu. Tutaj chcemy 
+    //wycentrować za pomocą text-align: center; a to działa tylko na elementy inline. 
+    border: 3px solid var(--color-two);
+    border-radius: 50%;
+    // text-align: center;
+    color: var(--color-two);
+    font-size: 37px;
+}
+
+// można nie robić display: inline-block, ale wtedy na elemencie blokowym należy użyć np. margin: 0 auto; w jego kontenerze
+// lub flexboxa (zamizst text-align: center;
+// .icon {
+//     border: 3px solid var(--color-two);
+//     border-radius: 50%; /* Ensures the border is rounded */
+//     // width: fit-content; /* Adjusts the width to the content */
+//     padding: 10px; /* Optional: Adds some padding around the icon */
+//     // text-align: center;
+//     // display: inline-block; /* Ensures the div only takes the width of the content */
+//     height: 60px;
+//     width: 60px;
+//     margin: 0 auto;
+// }
+
+
+.subtitle {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0;
+    font-family: var(--font-cormorant);
+}

@@ -1,0 +1,29 @@
+.btn {
+    background-color: var(--color-one);
+    border: 0; 
+    color: var(--color-two);
+    font-size: 20px; 
+    cursor: pointer; 
+    padding: 10px; 
+    margin: 0 20px; 
+    width: 160px;
+    border-radius: 5px;
+
+    &-one {
+        background-color: var(--color-two);
+        color: var(--color-one);
+    }
+
+    &-two {
+        background-color: var(--color-three);
+        color: var(--color-eight);
+    }
+
+    &-three {
+        background-color: var(--color-nine);
+        color: var(--color-one);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,8 @@
+.splash {
+    background-image: url('../../images/splash_photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    color: var(--color-one);
+}

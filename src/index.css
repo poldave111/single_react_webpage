@@ -1,5 +1,40 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto&family=Cormorant&display=swap');
+
+:root {
+  --color-zero: #fff;
+  --color-one:  #ecf0f1;
+  --color-two: #f1c40f;
+  --color-three: #d35400;
+  --color-four: #3498db;
+  --color-five: #27ae60;
+  --color-six: #2ecc71;
+  --color-seven: #34495e;
+  --color-eight: #000000;
+  --color-nine: #fd6830;
+  --font-color: #2c2c54;
+  --font-color2: #d6f7ec;
+  --portfolio-color: #f7f7f7;
+
+  --font-roboto: 'Roboto', sans-serif; 
+  --font-inconsolata: 'Inconsolata', sans-serif;
+  --font-cormorant: 'Cormorant', sans-serif;
+
+  --transition: all 1s; 
+}
+
+/* Global */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
 body {
   margin: 0;
+  font-size: 16px; 
+  line-height: 1.7;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +45,25 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  max-width: 60%;
+}
+
+.button-solid-one {
+  background-color: var(--color-one);
+}
+
+.button-solid-two {
+  background-color: var(--color-two);
+}
+
+.button-solid-three {
+  background-color: var(--color-three);
+}
+
+
+footer { 
+  width: 100%;
 }
